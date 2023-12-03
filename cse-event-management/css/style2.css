@@ -1,0 +1,83 @@
+
+
+    /* Styling the body */
+    body {
+        background:
+        url("back.jpg");
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Styling section, giving background
+        image and dimensions */
+    section {
+        width: 100%;
+        background-size: cover;
+    }
+    
+    /* Styling the left floating section */
+    section .leftBox {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    /* Styling the background of
+        left floating section */
+    section .leftBox .content {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        transition: .5s;
+    }
+    
+    /* Styling the hover effect
+        of left floating section */
+  
+    
+    /* Styling the header of left
+        floating section */
+    section .leftBox .content h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    
+    /* Styling the paragraph of
+        left floating section */
+    section .leftBox .content p {
+        margin: 10px 0 0;
+        padding: 0;
+    }
+    
+    /* Styling the three events section */
+    section .events {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        color:#fff;
+        background: rgba(0, 0, 0, 0.5);
+        float: right;
+        box-sizing: border-box;
+    }
+    section .leftBox .content h1{
+       font-size: 47px;
+    }
+    .leftBox .content .btn{
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding:10px 30px;
+        font-size: 20px;
+        background: rgb(130, 195, 223);
+        color:rgb(0, 0, 0);
+        margin:0 5px;
+        text-transform: capitalize;
+    }
+    section .leftBox .content .btn:hover {
+        background: #fbfbfb;
+    }
